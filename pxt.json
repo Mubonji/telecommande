@@ -1,0 +1,34 @@
+{
+    "name": "telecommande",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "bluetooth": "*",
+        "maqueenPlusV2": "github:dfrobot/pxt-dfrobot_maqueenplus_v20#v2.2.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.26",
+        "tag": "v6.0.26",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/0ba979dd8a8f411c37c20b5fd4faba5b43ef51aa",
+        "target": "6.0.27",
+        "pxt": "9.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
